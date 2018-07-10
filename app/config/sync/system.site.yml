@@ -1,0 +1,14 @@
+uuid: 0f977221-2a69-44c7-a53f-ea27e2dbdeee
+name: 'POC JSON API'
+mail: support@imaginelearning.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
