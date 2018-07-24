@@ -1,0 +1,31 @@
+uuid: 1bb44dbc-6d43-4ec1-a576-c8863ab069e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_multiple_choice_answers
+    - node.type.multiple_choice
+    - paragraphs.paragraphs_type.answer
+  module:
+    - entity_reference_revisions
+id: node.multiple_choice.field_multiple_choice_answers
+field_name: field_multiple_choice_answers
+entity_type: node
+bundle: multiple_choice
+label: Answers
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      answer: answer
+    target_bundles_drag_drop:
+      answer:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

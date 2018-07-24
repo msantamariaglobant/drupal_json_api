@@ -1,0 +1,32 @@
+uuid: e1fb0e5e-521d-4d02-b93c-ab1ac1caa0f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.answer.field_answer_correct
+    - field.field.paragraph.answer.field_answer_label
+    - paragraphs.paragraphs_type.answer
+id: paragraph.answer.default
+targetEntityType: paragraph
+bundle: answer
+mode: default
+content:
+  field_answer_correct:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_answer_label:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

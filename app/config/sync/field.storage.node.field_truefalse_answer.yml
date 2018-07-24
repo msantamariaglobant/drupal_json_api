@@ -1,0 +1,27 @@
+uuid: 8aa684d1-afc9-4aa2-ace9-3f9bcfb74bb4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_truefalse_answer
+field_name: field_truefalse_answer
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'true'
+      label: 'TRUE'
+    -
+      value: 'false'
+      label: 'FALSE'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

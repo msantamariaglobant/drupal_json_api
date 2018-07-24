@@ -1,0 +1,21 @@
+uuid: ad1ce7cb-3e29-4940-96f0-4e37793558cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_multiple_choice_answers
+field_name: field_multiple_choice_answers
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

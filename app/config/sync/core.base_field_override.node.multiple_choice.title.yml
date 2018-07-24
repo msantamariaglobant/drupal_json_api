@@ -1,0 +1,18 @@
+uuid: 12bd3bfe-8700-46f2-9f0d-e2c7ab757987
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.multiple_choice
+id: node.multiple_choice.title
+field_name: title
+entity_type: node
+bundle: multiple_choice
+label: Question
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,11 @@
+uuid: d14fa99d-d0cd-49d2-a42b-3302ef8443e7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Multiple Choice'
+type: multiple_choice
+description: 'Allows creating Multiple Choice questions.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

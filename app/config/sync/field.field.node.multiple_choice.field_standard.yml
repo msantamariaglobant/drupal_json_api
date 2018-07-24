@@ -1,0 +1,29 @@
+uuid: bed089bb-4770-4fe2-bfaf-77f0a30191d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_standard
+    - node.type.multiple_choice
+    - taxonomy.vocabulary.standards
+id: node.multiple_choice.field_standard
+field_name: field_standard
+entity_type: node
+bundle: multiple_choice
+label: Standard
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      standards: standards
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,55 @@
+uuid: e43333dc-0397-4a8e-b7fb-790c644037f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.multiple_choice.field_grade_level
+    - field.field.node.multiple_choice.field_multiple_choice_answers
+    - field.field.node.multiple_choice.field_product
+    - field.field.node.multiple_choice.field_standard
+    - node.type.multiple_choice
+  module:
+    - entity_reference_revisions
+    - user
+id: node.multiple_choice.default
+targetEntityType: node
+bundle: multiple_choice
+mode: default
+content:
+  field_grade_level:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_multiple_choice_answers:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_product:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_standard:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

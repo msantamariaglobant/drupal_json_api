@@ -1,0 +1,11 @@
+uuid: 62a6f46b-a7a5-4126-a20d-65cdac49ff03
+langcode: en
+status: true
+dependencies: {  }
+name: 'True False'
+type: true_false
+description: 'Allows creating questions for TRUE or FALSE.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
